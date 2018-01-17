@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Header from './components/header.jsx';
+
 class App extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render() {
-    return <div>This is the app component</div>
+    return (
+      <div>
+        <Header />
+        <p>This is the p in the app component.</p>
+      </div>
+    );
   }
 }
 
