@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import './styles/main.css';
+
 import Header from './components/header.jsx';
+import Home from './components/home.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -12,7 +15,9 @@ class App extends React.Component {
     return (
       <div>
         <Header />
-        <p>This is the p in the app component.</p>
+        <div className="row main">
+          <Home />
+        </div>
       </div>
     );
   }

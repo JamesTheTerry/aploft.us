@@ -1,0 +1,38 @@
+body {
+  color: #333;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+/* HEADER */
+.header {
+  border-bottom: 1px solid #333;
+}
+
+.tabs {
+  float: right;
+}
+
+.btn {
+  margin: 1em;
+  padding: 1em 2em;
+}
+
+.clickable:hover {
+  color: #52b947;
+}
+
+/*MAIN*/
+.main {
+  padding-top: 2em;
+}
+/* HOME */
+#headshot {
+  float: left;
+  width: 200px;
+  margin: 2em;
+}
+
+.icon {
+  margin: 1em;
+}
