@@ -6,8 +6,10 @@ let app = express();
 app.use(express.static(__dirname + '/dist'));
 app.use(bodyParser.json());
 
+
+// const dist = path.join(__dirname, '/../client/dist');
 // app.get('/', (req, res) => {
-//   res.send('Welcome!');
+//     res.sendFile(__dirname + '/dist/index.html');
 // });
 
 var port = process.env.PORT || 3000;
