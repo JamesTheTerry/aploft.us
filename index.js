@@ -10,6 +10,5 @@ app.use(bodyParser.json());
 //   res.send('Welcome!');
 // });
 
-app.listen(3000, function() {
-  console.log('listening at http://localhost:3000!');
-});
+var port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`Listening on localhost:${port}`));
