@@ -8,7 +8,9 @@
     "lint": "eslint src && eslint index.js",
     "start-dev": "npm run compile && nodemon index.js",
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js"
   },
   "engines": {
     "node": "8.9.4"
